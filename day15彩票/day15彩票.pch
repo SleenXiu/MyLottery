@@ -1,0 +1,28 @@
+//
+//  day15彩票.pch
+//  day15彩票
+//
+//  Created by Sleen Xiu on 16/9/17.
+//  Copyright © 2016年 cn.Xsoft. All rights reserved.
+//
+
+
+
+#ifndef day15___pch
+#define day15___pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+SL.h"
+#import "UIImage+SL.h"
+
+#define SLColor(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define SLKeyWindow [UIApplication sharedApplication].keyWindow
+
+#import "SLSaveTool.h"
+#import "SLRootVCTool.h"
+#define SLVerson @"Verson"
+
+#endif /* day15___pch */

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLMyLotteryViewController">
+            <connections>
+                <outlet property="view" destination="okV-B4-m2d" id="JDI-KC-FE9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="okV-B4-m2d">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="g3e-nf-Jvb">
+                    <rect key="frame" x="0.0" y="100" width="375" height="230"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="nMf-T0-Klj"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URL-ap-gG8">
+                    <rect key="frame" x="67" y="394" width="241" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="241" id="qqW-kd-az4"/>
+                        <constraint firstAttribute="height" constant="48" id="uVi-mB-ikI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <state key="normal" title="登      录" backgroundImage="RedButton">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="g3e-nf-Jvb" firstAttribute="top" secondItem="okV-B4-m2d" secondAttribute="top" constant="100" id="7ES-DI-aQ1"/>
+                <constraint firstItem="URL-ap-gG8" firstAttribute="top" secondItem="g3e-nf-Jvb" secondAttribute="bottom" constant="64" id="Dfx-gK-vd4"/>
+                <constraint firstAttribute="trailing" secondItem="g3e-nf-Jvb" secondAttribute="trailing" id="Ioy-vN-J4y"/>
+                <constraint firstItem="g3e-nf-Jvb" firstAttribute="leading" secondItem="okV-B4-m2d" secondAttribute="leading" id="OB8-qD-ATC"/>
+                <constraint firstItem="URL-ap-gG8" firstAttribute="centerX" secondItem="okV-B4-m2d" secondAttribute="centerX" id="jty-cK-lr9"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="328.5" y="193.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LoginScreen" width="296" height="138"/>
+        <image name="RedButton" width="61" height="34"/>
+    </resources>
+</document>
